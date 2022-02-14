@@ -3,10 +3,7 @@
 ## Summary
 This is a dataset of 132 images (1024x1024) of 13944 trees at 33 locations and around the London area. 
 
-## Tree location data
-Included is a csv file in the /data folder which contains the latitude and longitude coordinate of every tree.
-
-## Functions included
+## Functions included (london_trees.ipynb)
 * Download
 * Tree count
 * Convert JSONS to CSVs
@@ -18,8 +15,13 @@ Included is a csv file in the /data folder which contains the latitude and longi
 * Generate file summary
 * Generate lat-lon of each tree
 
+## Tree location data
+Included is a csv file in the /data folder which contains the latitude and longitude coordinate of every tree.
+
 ## Other files
-Pytorch dataset configuration files as used in C^3
+* Pytorch dataset configuration files as used in C^3
+* Gaussian kernel functions gaussian_functions.py
+* Train and test jsons for pytorch dataset files
 
 # How to get dataset
 
